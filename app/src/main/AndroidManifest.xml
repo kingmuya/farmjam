@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.farmjam">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        //addded
+        <activity
+            android:name="com.example.farmjam.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Dairy2"></activity>
+        <activity android:name=".ho2" />
+        <activity android:name=".oreliculture" />
+        <activity android:name=".f2" />
+        <activity android:name=".floriculture" />
+        <activity android:name=".gh2" />
+        <activity android:name=".greenhouse" />
+        <activity android:name=".Fish2" />
+        <activity android:name=".Fish" />
+        <activity android:name=".Chick2" />
+        <activity android:name=".Chick" />
+        <activity android:name=".Fact" />
+        <activity android:name=".DairyFarm" />
+        <activity android:name=".plants" />
+    </application>
+
+</manifest>

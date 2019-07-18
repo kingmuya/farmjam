@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color
+        name="colorPrimaryDark">#C8891E</color>
+    <color
+        name="backgroundcolor">#FCFCFC</color>
+    <color name="lightgray">#95A630</color>
+    <color name="deeppurple">#1018B1</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00BF29</color>
+    <color name="colorAccent">#F2A61642</color>
+    <color name="darkblue">#353844</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#DA1929</color>
+
+</resources>
